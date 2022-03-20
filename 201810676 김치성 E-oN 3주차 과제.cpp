@@ -12,10 +12,10 @@ int main()
 {
     int array[6], b=0 ;
     
-    printf("6°³ÀÇ ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
-    scanf_s("%d %d %d %d %d %d", &array[0], &array[1], &array[2], &array[3], &array[4], &array[5]);
+    printf("6ê°œì˜ ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”");
+    scanf_s("%d , %d , %d , %d , %d , %d", &array[0], &array[1], &array[2], &array[3], &array[4], &array[5]);
     b = sum(array);
-    printf("6°³ ¼ıÀÚÀÇ ÇÕÀº %dÀÔ´Ï´Ù", b);
+    printf("6ê°œ ìˆ«ìì˜ í•©ì€ %dì…ë‹ˆë‹¤", b);
 
     return 0;
 }
